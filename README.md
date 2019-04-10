@@ -15,9 +15,9 @@ samples, guidance on mobile development, and a full API reference.
 
 <table align="center">
     <tr align="center">
-      <td><img src="https://github.com/liuzeze/lzbanner/blob/master/img/1.png" width="280" height="480"/></td>
-        <td><img src="https://github.com/liuzeze/lzbanner/blob/master/img/2.png" width="280" height="480"/></td>
-         <td><img src="https://github.com/liuzeze/lzbanner/blob/master/img/3.png" width="280" height="480"/></td>
+      <td><img src="https://github.com/liuzeze/lzbanner/blob/master/screenshort/1.jpg" width="280" height="480"/></td>
+        <td><img src="https://github.com/liuzeze/lzbanner/blob/master/screenshort/2.jpg" width="280" height="480"/></td>
+         <td><img src="https://github.com/liuzeze/lzbanner/blob/master/screenshort/3.jpg" width="280" height="480"/></td>
     </tr>
         
 </table>
