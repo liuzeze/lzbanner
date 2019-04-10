@@ -23,23 +23,26 @@ samples, guidance on mobile development, and a full API reference.
 </table>
 
 
-
+### 使用方式  demo  https://github.com/liuzeze/Flutter_Demo/blob/master/lib/ui/page/news.dart
 ```
 
  BannerView(
-          indicatorBg: ColorUtils.c_ffffff,
-          indicatorColor: ColorUtils.c_63ca6c,
-          indicatorSelectColor: ColorUtils.c_ff0000,
-          indicatorAlignmentPos: MainAxisAlignment.end,
-          indicatorSize:SizeUtils.px_5,
+          indicatorBg: ColorUtils.c_ffffff,//指示器背景颜色
+          indicatorColor: ColorUtils.c_63ca6c, //指示器未选中颜色
+          indicatorSelectColor: ColorUtils.c_ff0000,//指示器选中颜色
+          indicatorAlignmentPos: MainAxisAlignment.end,//指示器位置 底部的左中 右 三个位置
+          indicatorSize:SizeUtils.px_5,//小圆点半径
           onBannerClickListener: (index, itemData) {
+            //点击事件
             print('liuze${itemData.title}');
           },
-          data: data2,
+          data: data2,//数据源
           buildTitle: (int index, itemData) {
+          //标题控件
             return  Text(itemData.title);
           },
           buildItem: (int index, itemData) {
+          //背景图片
             return Container(
               child: Image.network(
                 itemData.url,
