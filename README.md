@@ -21,3 +21,32 @@ samples, guidance on mobile development, and a full API reference.
     </tr>
         
 </table>
+
+
+
+```
+
+ BannerView(
+          indicatorBg: ColorUtils.c_ffffff,
+          indicatorColor: ColorUtils.c_63ca6c,
+          indicatorSelectColor: ColorUtils.c_ff0000,
+          indicatorAlignmentPos: MainAxisAlignment.end,
+          indicatorSize:SizeUtils.px_5,
+          onBannerClickListener: (index, itemData) {
+            print('liuze${itemData.title}');
+          },
+          data: data2,
+          buildTitle: (int index, itemData) {
+            return  Text(itemData.title);
+          },
+          buildItem: (int index, itemData) {
+            return Container(
+              child: Image.network(
+                itemData.url,
+                fit: BoxFit.fill,
+              ),
+            );
+          },
+        ),
+
+```
