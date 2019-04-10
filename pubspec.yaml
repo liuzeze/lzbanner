@@ -2,7 +2,7 @@ name: lzbanner
 description: banner封装库.
 version: 0.0.1
 author: 刘泽
-homepage:
+homepage: https://github.com/liuzeze/lzbanner
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
