@@ -12,3 +12,12 @@ multiple Flutter or Dart projects.
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
+
+<table align="center">
+    <tr align="center">
+      <td><img src="https://github.com/liuzeze/lzbanner/blob/master/img/1.png" width="280" height="480"/></td>
+        <td><img src="https://github.com/liuzeze/lzbanner/blob/master/img/2.png" width="280" height="480"/></td>
+         <td><img src="https://github.com/liuzeze/lzbanner/blob/master/img/3.png" width="280" height="480"/></td>
+    </tr>
+        
+</table>
