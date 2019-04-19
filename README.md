@@ -23,7 +23,7 @@ samples, guidance on mobile development, and a full API reference.
 </table>
 
 
-### 使用方式  demo  https://github.com/liuzeze/Flutter_Demo/blob/master/lib/ui/page/news.dart
+### 使用方式  demo  https://github.com/liuzeze/os_china/blob/master/lib/ui/news/news_child.dart
 ```
 
  BannerView(
